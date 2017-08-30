@@ -1,0 +1,56 @@
+footer {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  height: 200px;
+}
+
+footer .author {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .photo {
+    align-self: flex-start;
+    background-image: url('images/joao_avatar.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 180%;
+    border-radius: 50%;
+    height: 80px;
+    margin-bottom: 14px;
+    width: 80px;
+  }
+
+  p {
+    font-size: 12px;
+
+    &:first-child {
+      padding-bottom: 6px;
+    }
+  }
+}
+
+footer .social {
+  ul {
+    display: flex;
+
+    li a {
+      font-size: 26px;
+    }
+
+    li a:last-child {
+      font-size: 28px;;
+    }
+  }
+
+  .github {
+    margin: 0 8px;
+  }
+
+  .stackoverflow {
+    margin-right: 8px;
+  }
+}

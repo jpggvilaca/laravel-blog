@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  padding: 0;
+  margin: 0;
+  font-family: Interface, sans-serif;
+}
+
+ul,
+p,
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.main {
+  align-items: center;
+  background-color: $gray;
+  display: flex;
+  height: calc(100vh - 270px);
+  justify-content: center;
+  position: relative;
+  padding: 10px 30px;
+}
