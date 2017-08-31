@@ -2,7 +2,6 @@ footer {
   align-items: center;
   background-color: $white;
   display: flex;
-  justify-content: space-between;
   padding: 10px 30px;
   height: 200px;
 }
@@ -34,6 +33,10 @@ footer .author {
 }
 
 footer .social {
+  align-self: flex-end;
+  margin-bottom: 16px;
+  margin-left: 40px;
+
   ul {
     display: flex;
 

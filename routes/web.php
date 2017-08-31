@@ -3,7 +3,7 @@
 Auth::routes();
 
 Route::get('/', function () {
-  return view('layout');
+  return view('home');
 });
 
 Route::get('/posts', 'PostsController@index');

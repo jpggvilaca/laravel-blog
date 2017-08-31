@@ -34,3 +34,12 @@ a {
   position: relative;
   padding: 10px 30px;
 }
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    width: 100%;
+  }
+}
