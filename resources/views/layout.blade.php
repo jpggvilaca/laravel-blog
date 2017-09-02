@@ -9,13 +9,13 @@
   </head>
   <body>
 
-    @include('navbar')
+    @include('partials/navbar')
 
     <div class="main">
       @yield('content')
     </div>
 
-    @include('footer')
+    @include('partials/footer')
 
   </body>
 </html>
