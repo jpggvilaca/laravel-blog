@@ -15,6 +15,7 @@ class PostsController extends Controller {
     }
 
     public function list(Category $category) {
+      $validCategory = Category::findOrFail($category->id);
       $title = $category->title;
       $categorySlug = $category->slug;
       $posts = Post::postsByCategory($category->id);
@@ -24,6 +25,8 @@ class PostsController extends Controller {
     }
 
     public function show(Category $category, Post $post) {
+      Post::findOrFail($post->id);
+
       return view('posts.show', compact('post'));
     }
 

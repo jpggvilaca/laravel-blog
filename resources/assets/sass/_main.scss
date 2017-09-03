@@ -27,12 +27,15 @@ a {
 
 .main {
   align-items: center;
-  background-color: $gray;
+  background-color: $black;
   display: flex;
   height: calc(100vh - 270px);
-  justify-content: center;
   position: relative;
   padding: 10px 30px;
+
+  h1, h2, a, p {
+    color: #fff;
+  }
 }
 
 .home {

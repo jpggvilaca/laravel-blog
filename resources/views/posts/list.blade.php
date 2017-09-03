@@ -5,7 +5,7 @@
   <ul>
     @foreach ($posts as $post)
       <li>
-        <a href="/posts/{{$categorySlug}}/{{$post}}">
+        <a href="/posts/{{$categorySlug}}/{{$post->slug}}">
           {{ $post->title }}
         </a>
       </li>

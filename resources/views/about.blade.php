@@ -21,6 +21,9 @@
       Currently working with: <br/>
       Docker | Node | Webpack | JS | React
     </p>
+    <p class="interests">
+
+    </p>
   </div>
 
 @endsection
