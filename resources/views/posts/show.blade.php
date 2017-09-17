@@ -1,5 +1,5 @@
 @extends ('layout')
 
 @section ('content')
-  {{ $post->body }}
+  <p>{{ $post->body }}</p>
 @endsection
